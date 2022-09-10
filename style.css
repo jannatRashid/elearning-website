@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 26%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+}
+.nav-list{
+    width: 60%;
+    /* background-color: gray; */
+    display: flex;
+    /* gives all commands in a row */
+    align-items: center;
+
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 15px 24px;
+    
+
+}
+
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+.nav-list li a:hover{
+    
+    color: black;
+
+}
+
+.rightNav{
+    /* background-color: grey; */
+    width: 30%;
+   text-align: right;
+   padding: 20px;
+   padding: o 23px;
+    
+}
+.bg{
+    background-color: none;
+    /* color:black; */
+}
+.bg:hover{
+    text-shadow: 50px;
+    box-shadow: black;
+    background-color: gray;
+    /* color: black; */
+    border-radius: 10px;
+    border-color: gray;
+    color:black;
+}
+#search{
+    padding: 5px;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 9px;
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7)  url("shutterstock_1364081456_eLearning-e1565677255434.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}  
+.box-main{
+    max-width: 50%;
+    margin: auto;
+    /* margin auto sa centre ho jaya gi  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* height: 75%; */
+    
+}
+.firstsection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+   
+}
+.secondhalf{
+    width: 40%;
+}
+.secondhalf img{
+    width: 150%;
+    border-radius: 30px;
+    border: 3px solid whitesmoke;
+    display: block;
+    margin: auto;
+}
+.text-big{
+   
+    font-size: 40px;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn{
+    padding: 9px 20px;
+    border-radius: 7px;
+    margin: 9px 4px;
+    border: 3px solid wheat;
+    background: none;
+    color: beige;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;  
+}
+.btn-col{
+    color: white;
+    lighting-color: black;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.section{
+    /* height: 400px; */
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    display: flex;
+    /* max-width: 80%; */
+    font-family: 'Ubuntu', sans-serif;  
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.paras{
+    padding: 0 65px;
+    font-size: 48px;
+}
+.section-left{
+    
+    flex-direction: row-reverse;
+    /* max-width: 80%; */
+}
+.sectiontag{
+    padding: 16px 0;
+}
+    
+.sectionsubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail img{
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.contact{
+    background-color: antiquewhite;
+    height: 115vh;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.contact-bg{
+    background: rgba(0, 0, 0, 0.7)  url("template-dark-navy-blue-luxury-premium-abstract-background-with-luxury-triangles-pattern-and-gold-lighting-lines-illustration-vector.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.text-centre{
+    text-align: center;
+    /* margin-left: 180px; */
+    font-size: 37px;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif; 
+    color:white; 
+
+}
+.form{
+    max-width: 100%;
+    margin: 25px auto;
+    /* text-align: center; */
+}
+.form-input{
+    width: 301px;
+    /* padding: 10px 111px; */
+    /* border: 5px solid grey; */
+    background: none;
+    font-size: 20px;
+    border-radius: 16px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    justify-content: center;
+    /* padding-left: 26px; */
+      
+}
+.form-input input{
+    text-align: center;
+    padding: 8px;
+    border: 4px solid white;
+    color: white;
+
+}
+.form-input textarea{
+    text-align: center;
+    padding: 10px;
+    border: 4px solid white;
+}
+
+.btn-dark{
+    color: black;
+    padding: 16px 33px;
+    width: 174px;
+    border: 3px solid  white;
+    border-radius:40px;
+    font-size:25px;
+    background-color: white;
+    
+}
+.text-footer{
+     font-size: 20px;
+    text-align: center;
+    /* background-color: grey; */
+    font-family: 'Ubuntu', sans-serif; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    color: white;
+}
+/* for ham burger  */
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+.abouttext{
+    font-style: normal;
+    /* text-align: center; */
+    font-size: 20px;
+    margin: 2.5em;
+    color: black;
+    background-color: white;
+    /* background-color: ghostwhite; */
+}
+.text{   
+     display: block;
+     text-align: center;
+     font-size: 25px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* border: 4px solid black; */
+}
+@media only screen and (max-width:1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 1.3s ease-out;
+        height: 430px;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    /* height of nav bar responsive  */
+    .h-nav-resp{
+        height: 72px;
+         
+    }
+    /* visibility class  */
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .form-input{
+        padding: 10px 0;
+        /* margin-left: 16px; */
+        /* margin-right: 1px; */
+    }
+    .paras{
+        padding: 0px;
+    }
+    
+}
